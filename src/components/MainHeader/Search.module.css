@@ -1,0 +1,23 @@
+.inputContainer {
+  @apply relative flex flex-col md:bg-dusky-white w-1/3 my-[22px] mx-0 py-[13px] px-0 rounded-[6px];
+}
+
+.inputContainer span {
+  @apply md:absolute left-[18px];
+}
+
+.inputContainer input {
+  @apply hidden md:block bg-dusky-white border-b border-b-transparent focus:outline-none focus:border-b-grey-light-1 text-base text-grey w-1/2 p-0 ml-[55px];
+}
+
+.inputContainer label {
+  @apply hidden xl:block absolute top-[10px] left-[55px] scale-100 text-grey text-lg font-normal pointer-events-none ease-out duration-200;
+}
+
+.inputContainer:focus-within label {
+  @apply -translate-y-6 -translate-x-3 scale-75 text-black;
+}
+
+.inputContainer .filled {
+  @apply -translate-y-6 -translate-x-3 scale-75 text-black;
+}

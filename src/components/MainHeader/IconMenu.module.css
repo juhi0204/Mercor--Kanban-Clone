@@ -1,0 +1,4 @@
+
+.iconMenu {
+    @apply flex gap-6;
+}

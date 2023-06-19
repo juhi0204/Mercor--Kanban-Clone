@@ -1,0 +1,19 @@
+.sideDrawer {
+  @apply sticky top-0 left-0 min-h-screen;
+}
+
+.header {
+  @apply h-20 border-b border-b-grey-light-1 flex justify-between items-center px-[13px] sm:px-[22px];
+}
+
+.headerText {
+  @apply flex text-xl font-semibold text-black gap-[9px];
+}
+
+.headerText h2 {
+  @apply hidden sm:block;
+}
+
+.arraow {
+  @apply hidden sm:block;
+}
